@@ -122,6 +122,9 @@
 						<Type><![CDATA[double]]></Type>
 						<UnitType><![CDATA[NONE]]></UnitType>
 						<SdArray>false</SdArray>
+						<DefaultValue Class="CodeValue">
+							<Code><![CDATA[6]]></Code>
+						</DefaultValue>
 						<ParameterEditor>
 							<Id>1790889073808</Id>
 							<EditorContolType>TEXT_BOX</EditorContolType>
@@ -168,7 +171,7 @@
 						<UnitType><![CDATA[NONE]]></UnitType>
 						<SdArray>false</SdArray>
 						<DefaultValue Class="CodeValue">
-							<Code><![CDATA[6.5]]></Code>
+							<Code><![CDATA[5.0]]></Code>
 						</DefaultValue>
 						<ParameterEditor>
 							<Id>1790894090574</Id>
@@ -1081,7 +1084,7 @@
 						<Parameter>
 							<Name><![CDATA[capacity]]></Name>
 							<Value Class="CodeValue">
-								<Code><![CDATA[16]]></Code>
+								<Code><![CDATA[12]]></Code>
 							</Value>
 						</Parameter>
 						<Parameter>
@@ -2666,8 +2669,8 @@
 				<StopOption><![CDATA[Stop at specified time]]></StopOption>
 				<InitialDate><![CDATA[1790640000000]]></InitialDate>
 				<InitialTime><![CDATA[0.0]]></InitialTime>
-				<FinalDate><![CDATA[1790668800000]]></FinalDate>
-				<FinalTime><![CDATA[480.0]]></FinalTime>
+				<FinalDate><![CDATA[1790664000000]]></FinalDate>
+				<FinalTime><![CDATA[400.0]]></FinalTime>
 			</ModelTimeProperties>
 			<BypassInitialScreen>true</BypassInitialScreen>
 		</SimulationExperiment>
