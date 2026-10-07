@@ -2304,7 +2304,7 @@
     			<TimePlot>
 					<Id>1790812829202</Id>
 					<Name><![CDATA[plot]]></Name>
-					<X>110</X><Y>280</Y>
+					<X>100</X><Y>280</Y>
 					<Label><X>0</X><Y>-10</Y></Label>
 					<PublicFlag>true</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -2721,8 +2721,7 @@ else if (esc == 2) data_E1.add(root.sink.count());
 else if (esc == 3) data_A.add(root.sink.count());
 else if (esc == 4) data_B.add(root.sink.count());
 else if (esc == 5) data_C.add(root.sink.count());
-else if (esc == 6) data_D.add(root.sink.count());
-traceln("RES; " + esc + "; " + getCurrentReplication() + "; " + root.sink.count());]]></AfterSimulationRunCode>
+else if (esc == 6) data_D.add(root.sink.count());]]></AfterSimulationRunCode>
 			<SeedValue>30</SeedValue>
 			<SelectionModeForSimultaneousEvents>LIFO</SelectionModeForSimultaneousEvents>
 			<VmArgs><![CDATA[]]></VmArgs>
@@ -3140,7 +3139,7 @@ traceln("RES; " + esc + "; " + getCurrentReplication() + "; " + root.sink.count(
     			<BarChart>
 					<Id>1790890690370</Id>
 					<Name><![CDATA[chart]]></Name>
-					<X>50</X><Y>210</Y>
+					<X>50</X><Y>230</Y>
 					<Label><X>0</X><Y>-10</Y></Label>
 					<PublicFlag>true</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -3158,14 +3157,14 @@ traceln("RES; " + esc + "; " + getCurrentReplication() + "; " + root.sink.count(
 						<Unit Class="TimeUnits"><![CDATA[MINUTE]]></Unit>
 					</RecurrenceCode>
 					<EmbeddedIcon>false</EmbeddedIcon>
-					<Width>500</Width>
+					<Width>430</Width>
 					<Height>210</Height>
 					<BackgroundColor/>
 					<BorderColor/>
 					<ChartArea>
 						<XOffset>50</XOffset>
 						<YOffset>30</YOffset>
-						<Width>420</Width>
+						<Width>350</Width>
 						<Height>120</Height>
 						<BackgroundColor>-1</BackgroundColor>
 						<BorderColor>-16777216</BorderColor>
@@ -3226,76 +3225,11 @@ traceln("RES; " + esc + "; " + getCurrentReplication() + "; " + root.sink.count(
 						<RelativeWidth>0.8</RelativeWidth>
 					</Bars>
     			</BarChart>
-    			<BarChart>
-					<Id>1791394381151</Id>
-					<Name><![CDATA[Histograma]]></Name>
-					<X>100</X><Y>430</Y>
-					<Label><X>0</X><Y>-10</Y></Label>
-					<PublicFlag>true</PublicFlag>
-					<PresentationFlag>true</PresentationFlag>
-					<ShowLabel>false</ShowLabel>
-					<DrawMode>SHAPE_DRAW_2D3D</DrawMode>
-					<AutoUpdate>true</AutoUpdate>
-					<OccurrenceAtTime>true</OccurrenceAtTime>
-					<OccurrenceDate>1791446400000</OccurrenceDate>
-					<OccurrenceTime Class="CodeUnitValue">
-						<Code><![CDATA[0]]></Code>
-						<Unit Class="TimeUnits"><![CDATA[MINUTE]]></Unit>
-					</OccurrenceTime>
-					<RecurrenceCode Class="CodeUnitValue">
-						<Code><![CDATA[1]]></Code>
-						<Unit Class="TimeUnits"><![CDATA[MINUTE]]></Unit>
-					</RecurrenceCode>
-					<EmbeddedIcon>false</EmbeddedIcon>
-					<Width>1040</Width>
-					<Height>420</Height>
-					<BackgroundColor/>
-					<BorderColor/>
-					<ChartArea>
-						<XOffset>50</XOffset>
-						<YOffset>30</YOffset>
-						<Width>960</Width>
-						<Height>330</Height>
-						<BackgroundColor>-1</BackgroundColor>
-						<BorderColor>-16777216</BorderColor>
-						<GridColor>-12566464</GridColor>
-					</ChartArea>
-					<Legend>
-						<Place>SOUTH</Place>
-						<TextColor>-16777216</TextColor>
-						<Size>30</Size>
-					</Legend>
-					<Labels>
-						<HorLabelsPosition>DEFAULT</HorLabelsPosition>
-						<VerLabelsPosition>DEFAULT</VerLabelsPosition>
-						<TextColor>-12566464</TextColor>
-					</Labels>
-					<ShowLegend>true</ShowLegend>
-					<DataItem>
-					<Id>1791394381783</Id>
-					<Expression><![CDATA[data_E0.mean()]]></Expression>
-					<Color>-16776961</Color>
-						<Title><![CDATA[data_E0]]></Title>
-					</DataItem>
-					<DataItem>
-					<Id>1791394421142</Id>
-					<Expression><![CDATA[data_C.mean()]]></Expression>
-					<Color>-2354116</Color>
-						<Title><![CDATA[data_C]]></Title>
-					</DataItem>
-					<ScaleFromExpression><![CDATA[0]]></ScaleFromExpression>
-					<ScaleToExpression><![CDATA[1]]></ScaleToExpression>
-					<ScaleType>AUTO</ScaleType>
-					<Bars>
-						<Direction>UP</Direction>
-						<RelativeWidth>0.8</RelativeWidth>
-					</Bars>
-    			</BarChart>
 			</Presentation>
 
 			<AllowParallelEvaluations>true</AllowParallelEvaluations>
-			<UseFreeformParameters>true</UseFreeformParameters>
-			<NumberOfRuns>28</NumberOfRuns>
+			<UseFreeformParameters>false</UseFreeformParameters>
+			<NumberOfRuns>30</NumberOfRuns>
 			<FreeformParamValue>	
 				<Id>1790889073810</Id>
 			</FreeformParamValue>
